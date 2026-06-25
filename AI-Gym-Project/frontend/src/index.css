@@ -1,0 +1,48 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: Arial, sans-serif;
+}
+button{
+  background:#2563eb;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  border-radius:10px;
+  cursor:pointer;
+  font-size:16px;
+  transition:0.3s;
+}
+
+button:hover{
+  transform:scale(1.05);
+}
+input{
+  padding:10px;
+  width:300px;
+}
+
+nav{
+  background:#111;
+  padding:15px;
+}
+
+nav a{
+  color:white;
+  margin-right:20px;
+  text-decoration:none;
+}
+
+h1,h2,h3{
+  color:#222;
+}
+.logo-section{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.logo{
+  width:50px;
+  height:50px;
+}
